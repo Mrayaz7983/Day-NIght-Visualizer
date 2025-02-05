@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#clock {
+    width: 90%;
+    max-width: 400px;
+    font-size: 8vw;
+    height: auto;
+    color: #fff;
+    align-items: center;
+    padding: 10px;
+    font-weight: bolder;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    display: block;
+}
+
+@media screen and (max-width: 680px) {
+    #clock {
+        font-size: 12vw;
+        width: 80%;
+    }
+
+    img {
+        height: auto;
+        max-width: 100%;
+    }
+}
